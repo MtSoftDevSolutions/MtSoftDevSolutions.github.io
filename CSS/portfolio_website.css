@@ -451,4 +451,26 @@ button:hover, .form-container .btn:hover {
     -webkit-transition-duration: 1s;
     border-color: black;
 }
+
+
+#style-13::-webkit-scrollbar-track
+
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.9);
+    border-radius: 10px;
+    background-color: #CCCCCC;
+}
+
+#style-13::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+#style-13::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #D62929;
+    background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent)
+}
+
+}
 /***** End of Contact Form Styling *****/
