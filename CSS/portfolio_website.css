@@ -452,6 +452,19 @@ button:hover, .form-container .btn:hover {
     border-color: black;
 }
 
+.scrollbar {
+    margin-left: 30px;
+    float: left;
+    height: 300px;
+    width: 65px;
+    background: #F5F5F5;
+    overflow-y: scroll;
+    margin-bottom: 25px;
+}
+
+.force-overflow {
+    min-height: 450px;
+}
 
 #style-13::-webkit-scrollbar-track
 
@@ -472,5 +485,9 @@ button:hover, .form-container .btn:hover {
     background-image: -webkit-linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.4) 50%, transparent, transparent)
 }
 
+#wrapper {
+    text-align: center;
+    width: 100%;
+    margin: auto;
 }
 /***** End of Contact Form Styling *****/
