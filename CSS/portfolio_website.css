@@ -455,8 +455,8 @@ button:hover, .form-container .btn:hover {
 .scrollbar {
     margin-left: 30px;
     float: left;
-    height: 300px;
-    width: 65px;
+    height: 400px;
+    width: 550px;
     background: #F5F5F5;
     overflow-y: scroll;
     margin-bottom: 25px;
